@@ -1,0 +1,35 @@
+
+    table {
+       
+        background-color:rgb(53, 97, 84);
+        border-radius: 20;
+        border-color: #FFF;
+        border-width: 1;
+        font-size: 30;
+    }
+    
+    th {
+        font-family: 'Segoe UI', Arial;
+        font-size: 40;
+        padding: 20px 80px;
+        color: rgb(241, 228, 228);
+     
+        border-collapse: separate;
+        font-style: normal;
+        border: 0px;
+    }
+    
+    td {
+        font-family: 'Segoe UI', Arial;
+        font-size: 30;
+      
+        font-style: normal;
+      
+    }
+h1{
+    font-family: 'Segoe UI', Arial;
+        font-size: 30;
+        color:rgb(53, 97, 84);
+      text-align: center;
+        font-style: normal;
+}

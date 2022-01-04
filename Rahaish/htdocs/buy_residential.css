@@ -1,0 +1,717 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Open Sans', serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+
+
+
+.rentcommercial {
+
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+
+  overflow-x: auto;
+  overflow-y: auto;
+  background-color: rgba(255, 255, 255, 1);
+  width: 1366.00px;
+  height: 768.00px;
+  left: 0px;
+  top: 0px;
+
+}
+
+.rentcommercial .backgroundrectangle {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+
+  background-color: rgba(224, 235, 237, 1);
+  border-bottom-color: rgba(112, 112, 112, 1);
+  border-bottom-style: none;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(112, 112, 112, 1);
+  border-left-style: none;
+  border-left-width: 1.00px;
+  border-right-color: rgba(112, 112, 112, 1);
+  border-right-style: none;
+  border-right-width: 1.00px;
+  border-top-color: rgba(112, 112, 112, 1);
+  border-top-style: none;
+  border-top-width: 1.00px;
+  border-top-left-radius: 20.00px;
+  border-top-right-radius: 20.00px;
+  border-bottom-left-radius: 20.00px;
+  border-bottom-right-radius: 20.00px;
+  box-shadow: none;
+  width: 1194.00px;
+  height: 566.00px;
+  left: 80.00px;
+  top: 157.00px;
+
+}
+
+.rentcommercial .homenav {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  letter-spacing: 0.00px;
+  color: rgba(30, 78, 64, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 30.00px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'Segoe UI', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 85.00px;
+  height: 40.00px;
+  left: 756.00px;
+  top: 64.00px;
+
+}
+
+.rentcommercial .buynav {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  letter-spacing: 0.00px;
+  color: rgba(30, 78, 64, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 30.00px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'Segoe UI', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 54.00px;
+  height: 40.00px;
+  left: 920.00px;
+  top: 64.00px;
+
+}
+
+.rentcommercial .sellnav {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  letter-spacing: 0.00px;
+  color: rgba(30, 78, 64, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 30.00px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'Segoe UI', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 50.00px;
+  height: 40.00px;
+  left: 1053.00px;
+  top: 64.00px;
+
+}
+
+.rentcommercial .rentnav {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  letter-spacing: 0.00px;
+  color: rgba(30, 78, 64, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 30.00px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'Segoe UI', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 65.00px;
+  height: 40.00px;
+  left: 1182.00px;
+  top: 64.00px;
+
+}
+
+.rentcommercial .xdecdbe08 {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  letter-spacing: 0.00px;
+  color: rgba(30, 78, 64, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 71.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Gandhara Suls', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 344.00px;
+  height: 160.00px;
+  left: 80.00px;
+  top: 0.00px;
+
+}
+
+.rentcommercial .whiterectangle {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+
+  background-color: rgba(255, 255, 255, 1);
+  border-bottom-color: rgba(112, 112, 112, 1);
+  border-bottom-style: none;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(112, 112, 112, 1);
+  border-left-style: none;
+  border-left-width: 1.00px;
+  border-right-color: rgba(112, 112, 112, 1);
+  border-right-style: none;
+  border-right-width: 1.00px;
+  border-top-color: rgba(112, 112, 112, 1);
+  border-top-style: none;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 20.00px;
+  border-bottom-left-radius: 20.00px;
+  border-bottom-right-radius: 20.00px;
+  box-shadow: none;
+  width: 1009.00px;
+  height: 357.00px;
+  left: 173.00px;
+  top: 278.00px;
+
+}
+
+.rentcommercial .commercialtext {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  letter-spacing: 0.00px;
+  color: rgba(30, 78, 64, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 40.00px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'Segoe UI', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 224.00px;
+  height: 53.00px;
+  left: 571.00px;
+  top: 304.00px;
+
+}
+
+.rentcommercial .buydisplay {
+
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 237.00px;
+  height: 82.00px;
+  left: 173.00px;
+  top: 196.00px;
+
+}
+
+.rentcommercial .buydisplay .buyrectangle {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+
+  background-color: rgba(223, 145, 9, 1);
+  border-bottom-color: rgba(112, 112, 112, 1);
+  border-bottom-style: none;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(112, 112, 112, 1);
+  border-left-style: none;
+  border-left-width: 1.00px;
+  border-right-color: rgba(112, 112, 112, 1);
+  border-right-style: none;
+  border-right-width: 1.00px;
+  border-top-color: rgba(112, 112, 112, 1);
+  border-top-style: none;
+  border-top-width: 1.00px;
+  border-top-left-radius: 20.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 237.00px;
+  height: 82.00px;
+  left: 0.00px;
+  top: 0.00px;
+
+}
+
+.rentcommercial .buydisplay .buytext {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  letter-spacing: 0.00px;
+  color: rgba(0, 0, 0, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 37.00px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'Segoe UI', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 80.00px;
+  height: 49.00px;
+  left: 86.00px;
+  top: 17.00px;
+
+}
+
+.rentcommercial .searchbutton {
+
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 65.00px;
+  height: 65.00px;
+  left: 1001.00px;
+  top: 486.00px;
+
+}
+
+.rentcommercial .searchbutton .rectangle34 {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+
+  background-color: rgba(30, 78, 64, 1);
+  border-bottom-color: rgba(112, 112, 112, 1);
+  border-bottom-style: none;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(112, 112, 112, 1);
+  border-left-style: none;
+  border-left-width: 1.00px;
+  border-right-color: rgba(112, 112, 112, 1);
+  border-right-style: none;
+  border-right-width: 1.00px;
+  border-top-color: rgba(112, 112, 112, 1);
+  border-top-style: none;
+  border-top-width: 1.00px;
+  border-top-left-radius: 10.00px;
+  border-top-right-radius: 10.00px;
+  border-bottom-left-radius: 10.00px;
+  border-bottom-right-radius: 10.00px;
+  box-shadow: none;
+  width: 65.00px;
+  height: 65.00px;
+  left: 0.00px;
+  top: 0.00px;
+
+}
+
+.rentcommercial .searchbutton .searchsvg {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+
+  fill: rgba(255, 255, 255, 1);
+  box-shadow: none;
+  width: 36.00px;
+  height: 36.00px;
+  left: 14.50px;
+  top: 17.00px;
+
+}
+
+.rentcommercial .classification {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+
+  stroke: rgba(112, 112, 112, 1);
+  stroke-width: 1.00px;
+  stroke-linecap: butt;
+  box-shadow: none;
+  width: 421.00px;
+  height: 1.00px;
+  left: 698.00px;
+  top: 424.50px;
+
+}
+
+.rentcommercial .housingsociety {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+
+  stroke: rgba(112, 112, 112, 1);
+  stroke-width: 1.00px;
+  stroke-linecap: butt;
+  box-shadow: none;
+  width: 707.00px;
+  height: 1.00px;
+  left: 210.00px;
+  top: 493.50px;
+
+}
+
+.rentcommercial .maxprice {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+
+  stroke: rgba(112, 112, 112, 1);
+  stroke-width: 1.00px;
+  stroke-linecap: butt;
+  box-shadow: none;
+  width: 707.01px;
+  height: 5.00px;
+  left: 210.00px;
+  top: 558.50px;
+
+}
+
+.rentcommercial .minprice {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+
+  stroke: rgba(112, 112, 112, 1);
+  stroke-width: 1.00px;
+  stroke-linecap: butt;
+  box-shadow: none;
+  width: 421.00px;
+  height: 1.00px;
+  left: 210.00px;
+  top: 424.50px;
+
+}
+
+.rentcommercial .minpricetext {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+
+  border-color: transparent;
+  text-align: left;
+  letter-spacing: 0.00px;
+
+
+  font-size: 37.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Segoe UI', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 421.00px;
+  height: 49.00px;
+  left: 210.00px;
+  top: 375.00px;
+
+}
+
+.rentcommercial .maxpricetext {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  border-color: transparent;
+
+
+  text-align: left;
+  letter-spacing: 0.00px;
+
+
+  font-size: 37.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Segoe UI', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 421.00px;
+  height: 49.00px;
+  left: 698.00px;
+  top: 375.00px;
+
+}
+
+.rentcommercial .housingsoctext {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  border-color: transparent;
+
+
+  text-align: left;
+  letter-spacing: 0.00px;
+
+
+  font-size: 37.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Segoe UI', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 707.00px;
+  height: 49.00px;
+  left: 210.00px;
+  top: 446.00px;
+
+}
+
+.rentcommercial .classificationtext {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  border-color: transparent;
+
+
+  text-align: left;
+  letter-spacing: 0.00px;
+
+
+  font-size: 37.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Segoe UI', Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 707.00px;
+  height: 49.00px;
+  left: 208.00px;
+  top: 511.00px;
+
+}

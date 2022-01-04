@@ -1,0 +1,272 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Open Sans', serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+.landingPage {
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    overflow-x: auto;
+    overflow-y: auto;
+    background-color: rgba(255, 255, 255, 1);
+    width: 1366.00px;
+    height: 768.00px;
+    left: 0px;
+    top: 0px;
+}
+
+.landingPage .backgroundrectangle {
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    background-color: rgba(224, 235, 237, 1);
+    border-top-left-radius: 20.00px;
+    border-top-right-radius: 20.00px;
+    border-bottom-left-radius: 20.00px;
+    border-bottom-right-radius: 20.00px;
+    width: 1249.00px;
+    height: 628.00px;
+    left: 59.00px;
+    top: 70.00px;
+}
+
+.landingPage .Heading1 {
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    letter-spacing: 0.00px;
+    color: rgba(30, 78, 64, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 50.00px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Segoe UI', Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    width: 531.00px;
+    height: 195.00px;
+    left: 152.00px;
+    top: 145.00px;
+}
+
+.landingPage .Heading2 {
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    
+    background-color: rgba(255, 255, 255, 0);
+    text-align: justify;
+    letter-spacing: 0.00px;
+    color: rgba(0, 0, 0, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 36.00px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Arial;
+    -webkit-filter: drop-shadow(0px 3px 6px rgba(227, 243, 238, 1));
+    filter: drop-shadow(0px 3px 6px rgba(227, 243, 238, 1));
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 496.00px;
+    height: 144.00px;
+    left: 152.00px;
+    top: 312.00px;
+}
+
+.landingPage .signinbutton {
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    border-color: transparent;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    background-color: transparent;
+    width: 202.00px;
+    height: 84.00px;
+    left: 249.00px;
+    top: 563.00px;
+}
+
+.landingPage .signinbutton .signinrectangle {
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    
+    background-color: rgba(30, 78, 64, 1);
+    border-bottom-color: rgba(30, 78, 64, 1);
+    border-bottom-style: none;
+    border-bottom-width: 3.00px;
+    border-left-color: rgba(30, 78, 64, 1);
+    border-left-style: none;
+    border-left-width: 3.00px;
+    border-right-color: rgba(30, 78, 64, 1);
+    border-right-style: none;
+    border-right-width: 3.00px;
+    border-top-color: rgba(30, 78, 64, 1);
+    border-top-style: none;
+    border-top-width: 3.00px;
+    border-top-left-radius: 10.00px;
+    border-top-right-radius: 10.00px;
+    border-bottom-left-radius: 10.00px;
+    border-bottom-right-radius: 10.00px;
+    box-shadow: none;
+    width: 202.00px;
+    height: 84.00px;
+    left: 0.00px;
+    top: 0.00px;
+}
+
+.landingPage .signinbutton .signintext {
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+   
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    letter-spacing: 0.00px;
+    color: rgba(227, 243, 238, 1);
+    -webkit-text-stroke: unset;
+    font-size: 34.00px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Segoe UI', Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 111.00px;
+    height: 46.00px;
+    left: 46.00px;
+    top: 13.00px;
+}
+
+.landingPage .untitled {
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    background-image: url("assets/untitled.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    cursor: default;
+
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(112, 112, 112, 1);
+    border-bottom-style: none;
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(112, 112, 112, 1);
+    border-left-style: none;
+    border-left-width: 1.00px;
+    border-right-color: rgba(112, 112, 112, 1);
+    border-right-style: none;
+    border-right-width: 1.00px;
+    border-top-color: rgba(112, 112, 112, 1);
+    border-top-style: none;
+    border-top-width: 1.00px;
+    border-top-left-radius: 0.00px;
+    border-top-right-radius: 0.00px;
+    border-bottom-left-radius: 0.00px;
+    border-bottom-right-radius: 0.00px;
+    box-shadow: none;
+    width: 573.00px;
+    height: 456.00px;
+    left: 735.00px;
+    top: 242.00px;
+}
+
+.landingPage .logogreen {
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    letter-spacing: 0.00px;
+    color: rgba(30, 78, 64, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 100.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: 'Gandhara Suls', Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 484.00px;
+  height: 225.00px;
+  left: 882.00px;
+  top: 87.00px;
+}

@@ -5,13 +5,22 @@
     <meta charset="utf-8">
     <title>Buy Commercial</title>
 
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
     <link rel="stylesheet" href="buy_commercial.css">
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
     <div class="rentcommercial">
         <div class="backgroundrectangle"></div>
- <!-- navigation -->
+        <!-- navigation -->
         <a class="buynav" href="homepageUser.php">Home</a>
         <a class="sellnav" href="buyClassification.php">Buy</a>
         <a class="rentnav" href="rentClassification.php">Rent</a>
@@ -24,7 +33,7 @@
             <div class="buytext">Buy</div>
         </div>
 
-<!-- search button -->
+        <!-- search button -->
 
         <form method="POST" action="search_buy_com.php">
             <div class="searchbutton">
@@ -36,7 +45,7 @@
             </div>
 
 
-<!-- Input Tags for Retrieving Information -->
+            <!-- Input Tags for Retrieving Information -->
             <div><input type="number" name="buy_com_min_area" class="minpricetext" placeholder="Minimum Price" required> </div>
             <div><input type="number" name="buy_com_max_area" class="maxpricetext" placeholder="Maximum Price" required></div>
             <div><input type="text" name="buy_com_location" class="housingsoctext" placeholder="Housing Society" required></div>
@@ -58,6 +67,13 @@
 
     </div>
 
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
 
 
 </body>

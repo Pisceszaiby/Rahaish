@@ -5,7 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="search_buy_com.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="search_buy_res.css">
+    <link rel="stylesheet" href="styles.css">
+
     <title>Search Buy Residential</title>
 </head>
 
@@ -46,9 +54,9 @@
     } else {
         $heading = " Residential " . $buy_res_classification . " for Buying in " . $buy_res_location . " in price range Rs "
             . $buy_res_min_area . " - " . $buy_res_max_area;
-        $user_name1 ="Property Agent: ".$row['Property Agent'];
-        $price1 = "Price: ".$row['price']." PKR";
-        $address_desc1 ="Address Description: ".$row['address_desc'];
+        $user_name1 = "Property Agent: " . $row['Property Agent'];
+        $price1 = "Price: " . $row['price'] . " PKR";
+        $address_desc1 = "Address Description: " . $row['address_desc'];
         $property1 = $row['property_id'];
     }
 
@@ -129,8 +137,8 @@
 
     <div class="propertysearchresults">
         <a class="homenav" href="homepageUser.php">Home</a>
-        <a class="buynav" href="buyClassification.php">       Buy</a>
-     
+        <a class="buynav" href="buyClassification.php"> Buy</a>
+
         <a class="rentnav" href="rentClassification.php">Rent</a>
         <div class="x2c9d6ac5"> رہائش </div>
         <div class="resultsOfBahriaTownMaximumPrice60000000RsArea16335SqFeet">
@@ -154,7 +162,7 @@
                 <div class="property2">
                     <button class="backgroundrectangle2" value=<?= $property2 ?> name="Property" type="submit">
                         <div class="property2c"><?= $price2 ?> </div>
-                        <div class="property2b"><?= $user_name2?></div>
+                        <div class="property2b"><?= $user_name2 ?></div>
                         <div class="property2a"><?= $address_desc2 ?></div>
 
                     </button>
@@ -168,7 +176,7 @@
                 <div class="property3">
                     <button class="backgroundrectangle3" value=<?= $property3 ?> name="Property" type="submit">
                         <div class="property3c"><?= $price3 ?> </div>
-                        <div class="property3b"><?= $user_name3?></div>
+                        <div class="property3b"><?= $user_name3 ?></div>
                         <div class="property3a"><?= $address_desc3 ?></div>
 
                     </button>
@@ -183,7 +191,7 @@
                 <div class="property4">
                     <button class="backgroundrectangle4" value=<?= $property4 ?> name="Property" type="submit">
                         <div class="property4c"><?= $price4 ?> </div>
-                        <div class="property4b"><?= $user_name4?></div>
+                        <div class="property4b"><?= $user_name4 ?></div>
                         <div class="property4a"><?= $address_desc4 ?></div>
 
                     </button>
@@ -197,7 +205,7 @@
                 <div class="property5">
                     <button class="backgroundrectangle5" value=<?= $property5 ?> name="Property" type="submit">
                         <div class="property5c"><?= $price5 ?> </div>
-                        <div class="property5b"><?= $user_name5?></div>
+                        <div class="property5b"><?= $user_name5 ?></div>
                         <div class="property5a"><?= $address_desc5 ?></div>
 
                     </button>
@@ -216,5 +224,12 @@
 
 
 </body>
+
+<!-- Bootstrap JavaScript Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+</script>
 
 </html>

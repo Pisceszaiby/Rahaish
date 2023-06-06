@@ -2,18 +2,16 @@
 <html lang="en">
 
 <head>
+
+	<title>Filers</title>
+	<!-- Required meta tags -->
+
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Filers</title>
+
 	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	<!-- Bootstrap CSS v5.2.1 -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
-	<link rel="stylesheet" href="filers.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 	<link rel="stylesheet" href="styles.css">
 
 </head>
@@ -31,7 +29,7 @@
 FROM Filer_Details;";
 
 	$result = mysqli_query($con, $sql) or die("Bad query: $sql"); //result
-	echo "<table> <tr><th> User Name </th><th> User Email </th><th> User Phone </th><th> User CNIC </th><th>NTN</th></tr>";
+	echo " <h1>Data of Filers</h1>  <div class='container-fluid'><table> <tr><th> User Name </th><th> User Email </th><th> User Phone </th><th> User CNIC </th><th>NTN</th></tr>";
 	//result displayed in the form of table
 	while ($row = mysqli_fetch_array($result)) {
 		echo "<tr>";
@@ -47,7 +45,7 @@ FROM Filer_Details;";
 
 		echo "</tr>";
 	}
-	echo "</table";
+	echo "</table></div>";
 	?>
 </body>
 
@@ -58,6 +56,6 @@ FROM Filer_Details;";
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
 </script>
 
-<h1>Data of Filers</h1>
+
 
 </html>

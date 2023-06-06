@@ -2,16 +2,17 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
+
     <title>LoginResult</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS v5.2.1 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="loginresult.css">
+    <!-- Required meta tags -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="styles.css">
 
 </head>
@@ -75,31 +76,31 @@
     }
 
     ?>
+    <div class="container-fluid">
+        <div class="loginresult">
+            <div class="backgroundrectangle"></div>
+            <div class="loginResult"><?= $result1 ?></div>
+            <div class="welcome"><?= $result2 ?></div>
+            <form method="get" action="<?= $page ?>"><button type="hidden" name="varname" value="<?= $user_id ?>">
+                    <div class="proceed">
+                        <!-- proceed button -->
+                        <div class="proceedrectangle"></div>
+                        <div class="proceedtext"> <?= $result3 ?></div>
+                    </div>
+                </button></form>
+            <div class="untitled"></div>
+            <div class="xc5c0ae13"> رہائش </div>
+        </div>
 
-    <div class="loginresult">
-        <div class="backgroundrectangle"></div>
-        <div class="loginResult"><?= $result1 ?></div>
-        <div class="welcome"><?= $result2 ?></div>
-        <form method="get" action="<?= $page ?>"><button type="hidden" name="varname" value="<?= $user_id ?>">
-                <div class="proceed">
-                    <!-- proceed button -->
-                    <div class="proceedrectangle"></div>
-                    <div class="proceedtext"> <?= $result3 ?></div>
-                </div>
-            </button></form>
+
+
+
+
+
+
+
         <div class="untitled"></div>
-        <div class="xc5c0ae13"> رہائش </div>
-    </div>
-
-
-
-
-
-
-
-
-    <div class="untitled"></div>
-    <div class="x9cb52550"> رہائش </div> -->
+        <div class="x9cb52550"> رہائش </div>
     </div>
 
 

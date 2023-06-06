@@ -2,17 +2,16 @@
 <html lang="en">
 
 <head>
+
+	<title>Non Filers</title>
+	<!-- Required meta tags -->
+
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Non Filers</title>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<!-- Bootstrap CSS v5.2.1 -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-	<link rel="stylesheet" href="non_filers.css">
+	<!-- Required meta tags -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 	<link rel="stylesheet" href="styles.css">
 
 </head>
@@ -30,7 +29,7 @@
 	//result of sql query
 	$result = mysqli_query($con, $sql) or die("Bad query: $sql");
 	//results displayed in form of table
-	echo "<table> <tr><th> User Name </th><th> User Email </th><th> User Phone </th><th> User CNIC </th><th> User Role </th></tr>";
+	echo "   <div class='container-fluid'><table> <tr><th> User Name </th><th> User Email </th><th> User Phone </th><th> User CNIC </th><th> User Role </th></tr>";
 	while ($row = mysqli_fetch_array($result)) {
 		echo "<tr>";
 		echo "<th>" . $row['user_name'] . "</th>";
@@ -45,7 +44,7 @@
 
 		echo "</tr>";
 	}
-	echo "</table";
+	echo "</table></div>";
 	?>
 </body>
 <h1>Data of Non Filers</h1>

@@ -2,16 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS v5.2.1 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="search_buy_res.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Required meta tags -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 
     <title>Search Buy Residential</title>
@@ -133,87 +131,88 @@
     }
 
     ?>
+    <div class='container-fluid'>
+
+        <div class="propertysearchresults">
+            <a class="homenav" href="homepageUser.php">Home</a>
+            <a class="buynav" href="buyClassification.php"> Buy</a>
+
+            <a class="rentnav" href="rentClassification.php">Rent</a>
+            <div class="x2c9d6ac5"> رہائش </div>
+            <div class="resultsOfBahriaTownMaximumPrice60000000RsArea16335SqFeet">
+                <?= $heading ?></div>
+            <div>
+                <form method="post" action="propertydetails.php">
+                    <div class="property1">
+                        <button class="backgroundrectangle1" value=<?= $property1 ?> name="Property" type="submit">
+                            <div class="property1c"><?= $price1 ?> </div>
+                            <div class="property1b"><?= $user_name1 ?></div>
+                            <div class="property1a"><?= $address_desc1 ?></div>
+
+                        </button>
+                    </div>
+                </form>
+            </div>
 
 
-    <div class="propertysearchresults">
-        <a class="homenav" href="homepageUser.php">Home</a>
-        <a class="buynav" href="buyClassification.php"> Buy</a>
+            <div>
+                <form method="post" action="propertydetails.php">
+                    <div class="property2">
+                        <button class="backgroundrectangle2" value=<?= $property2 ?> name="Property" type="submit">
+                            <div class="property2c"><?= $price2 ?> </div>
+                            <div class="property2b"><?= $user_name2 ?></div>
+                            <div class="property2a"><?= $address_desc2 ?></div>
 
-        <a class="rentnav" href="rentClassification.php">Rent</a>
-        <div class="x2c9d6ac5"> رہائش </div>
-        <div class="resultsOfBahriaTownMaximumPrice60000000RsArea16335SqFeet">
-            <?= $heading ?></div>
-        <div>
-            <form method="post" action="propertydetails.php">
-                <div class="property1">
-                    <button class="backgroundrectangle1" value=<?= $property1 ?> name="Property" type="submit">
-                        <div class="property1c"><?= $price1 ?> </div>
-                        <div class="property1b"><?= $user_name1 ?></div>
-                        <div class="property1a"><?= $address_desc1 ?></div>
+                        </button>
+                    </div>
+                </form>
+            </div>
 
-                    </button>
-                </div>
-            </form>
+
+            <div>
+                <form method="post" action="propertydetails.php">
+                    <div class="property3">
+                        <button class="backgroundrectangle3" value=<?= $property3 ?> name="Property" type="submit">
+                            <div class="property3c"><?= $price3 ?> </div>
+                            <div class="property3b"><?= $user_name3 ?></div>
+                            <div class="property3a"><?= $address_desc3 ?></div>
+
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+
+
+            <div>
+                <form method="post" action="propertydetails.php">
+                    <div class="property4">
+                        <button class="backgroundrectangle4" value=<?= $property4 ?> name="Property" type="submit">
+                            <div class="property4c"><?= $price4 ?> </div>
+                            <div class="property4b"><?= $user_name4 ?></div>
+                            <div class="property4a"><?= $address_desc4 ?></div>
+
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+
+            <div>
+                <form method="post" action="propertydetails.php">
+                    <div class="property5">
+                        <button class="backgroundrectangle5" value=<?= $property5 ?> name="Property" type="submit">
+                            <div class="property5c"><?= $price5 ?> </div>
+                            <div class="property5b"><?= $user_name5 ?></div>
+                            <div class="property5a"><?= $address_desc5 ?></div>
+
+                        </button>
+                    </div>
+                </form>
+            </div>
+
         </div>
-
-
-        <div>
-            <form method="post" action="propertydetails.php">
-                <div class="property2">
-                    <button class="backgroundrectangle2" value=<?= $property2 ?> name="Property" type="submit">
-                        <div class="property2c"><?= $price2 ?> </div>
-                        <div class="property2b"><?= $user_name2 ?></div>
-                        <div class="property2a"><?= $address_desc2 ?></div>
-
-                    </button>
-                </div>
-            </form>
-        </div>
-
-
-        <div>
-            <form method="post" action="propertydetails.php">
-                <div class="property3">
-                    <button class="backgroundrectangle3" value=<?= $property3 ?> name="Property" type="submit">
-                        <div class="property3c"><?= $price3 ?> </div>
-                        <div class="property3b"><?= $user_name3 ?></div>
-                        <div class="property3a"><?= $address_desc3 ?></div>
-
-                    </button>
-                </div>
-            </form>
-        </div>
-
-
-
-        <div>
-            <form method="post" action="propertydetails.php">
-                <div class="property4">
-                    <button class="backgroundrectangle4" value=<?= $property4 ?> name="Property" type="submit">
-                        <div class="property4c"><?= $price4 ?> </div>
-                        <div class="property4b"><?= $user_name4 ?></div>
-                        <div class="property4a"><?= $address_desc4 ?></div>
-
-                    </button>
-                </div>
-            </form>
-        </div>
-
-
-        <div>
-            <form method="post" action="propertydetails.php">
-                <div class="property5">
-                    <button class="backgroundrectangle5" value=<?= $property5 ?> name="Property" type="submit">
-                        <div class="property5c"><?= $price5 ?> </div>
-                        <div class="property5b"><?= $user_name5 ?></div>
-                        <div class="property5a"><?= $address_desc5 ?></div>
-
-                    </button>
-                </div>
-            </form>
-        </div>
-
-
+    </div>
 
 
 

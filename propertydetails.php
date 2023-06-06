@@ -2,15 +2,16 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
+
     <title>PropertyDetails</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS v5.2.1 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="propertydetails.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Required meta tags -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 
 </head>
@@ -56,48 +57,49 @@ where property_id=$Property;";
 
     ?>
     <!-- displaying php variables  -->
-    <div class="propertydetails">
-        <div class="backgroundrectangle"></div>
-        <div class="heading">Property Details</div>
-        <div class="namecomponent">
-            <div class="area">Area</div>
-            <div class="areaunit"><?= $row1["area_unit"] ?></div>
-        </div>
-        <div class="emailcomponent">
-            <div class="owner">Owner:</div>
-            <div class="usernameo"><?= $row1["Owner"]  ?></div>
-        </div>
-        <div class="phonecomponent">
-            <div class="agent">Agent: </div>
-            <div class="username"><?= $row2["user_name"]  ?></div>
-        </div>
-        <div class="cniccomponent">
-            <div class="agentContact">Agent Contact:</div>
-            <div class="userphone"><?= $row2["user_phone"] ?></div>
-        </div>
-        <div class="socnamecomponent">
-            <div class="price">Price:</div>
-            <div class="pricepro"><?= $row2["price"] ?></div>
-        </div>
-        <div class="description">Description: </div>
-        <div class="bought">
-            <div class="email"><?= $row2["user_email"] ?></div>
-            <div class="agentEmail">Agent Email: </div>
-        </div>
-        <div class="xd7cae9c7"> رہائش </div>
-        <div class="jjj"><?= $row2["property_desc"] ?></div>
+    <div class='container-fluid'>
+        <div class="propertydetails">
+            <div class="backgroundrectangle"></div>
+            <div class="heading">Property Details</div>
+            <div class="namecomponent">
+                <div class="area">Area</div>
+                <div class="areaunit"><?= $row1["area_unit"] ?></div>
+            </div>
+            <div class="emailcomponent">
+                <div class="owner">Owner:</div>
+                <div class="usernameo"><?= $row1["Owner"]  ?></div>
+            </div>
+            <div class="phonecomponent">
+                <div class="agent">Agent: </div>
+                <div class="username"><?= $row2["user_name"]  ?></div>
+            </div>
+            <div class="cniccomponent">
+                <div class="agentContact">Agent Contact:</div>
+                <div class="userphone"><?= $row2["user_phone"] ?></div>
+            </div>
+            <div class="socnamecomponent">
+                <div class="price">Price:</div>
+                <div class="pricepro"><?= $row2["price"] ?></div>
+            </div>
+            <div class="description">Description: </div>
+            <div class="bought">
+                <div class="email"><?= $row2["user_email"] ?></div>
+                <div class="agentEmail">Agent Email: </div>
+            </div>
+            <div class="xd7cae9c7"> رہائش </div>
+            <div class="jjj"><?= $row2["property_desc"] ?></div>
 
-        <div>
-            <form method="post" action="agentProfile.php">
-                <!-- Agent Profile Button -->
+            <div>
+                <form method="post" action="agentProfile.php">
+                    <!-- Agent Profile Button -->
 
-                <button type="submit" name="varname" value=<?= $id ?> class=" filers ">
-                    <div class="filersbox"></div>
-                    <div class="filerstext">Agent Profile</div>
-                </button>
-            </form>
+                    <button type="submit" name="varname" value=<?= $id ?> class=" filers ">
+                        <div class="filersbox"></div>
+                        <div class="filerstext">Agent Profile</div>
+                    </button>
+                </form>
+            </div>
         </div>
-    </div>
     </div>
 
 

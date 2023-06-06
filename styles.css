@@ -31,6 +31,15 @@
     text-align: right;
 }
 
+.result {
+    display: block;
+    color: rgba(30, 78, 64, 1);
+    font-weight: 700;
+    margin: 20px auto;
+    text-align: center;
+
+}
+
 h1 {
     margin-top: 30px;
     font-family: 'Segoe UI', Arial;
@@ -58,8 +67,88 @@ h1 {
     color: white;
 }
 
+.login-pt1 {
+    background-color: rgb(138, 194, 177);
+    border-radius: 0 20px 20px 0px;
+    padding: 40px;
+}
 
----------------------------------------------------------
+.login-pt2 {
+    padding: 60px;
+}
+
+.login-pt2 .btn {
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+}
+
+.login-pt1 img {
+    width: 100%;
+    margin-left: 140px;
+    height: 400px;
+}
+
+.login-pt1 h2 {
+    margin-top: 20px;
+    color: rgba(30, 78, 64, 1);
+    font-weight: 700;
+}
+
+.login-pt2 h2 {
+    margin-top: 20px;
+    color: rgb(2, 31, 22);
+    font-weight: 700;
+}
+
+.login-pt1 .logogreen {
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Gandhara Suls', Arial;
+    color: black;
+    text-align: left;
+
+}
+
+input {
+    border-top: 0 solid rgba(128, 128, 128, 0.795);
+    border-bottom: 2px solid rgb(209, 206, 206);
+    border-left: 0 solid rgba(128, 128, 128, 0.61);
+    border-right: 0 solid rgba(128, 128, 128, 0.548);
+    margin: 20px 0;
+    height: 40px;
+    width: 70%;
+}
+
+/* media query for small sizes of bs5 */
+@media (max-width: 575px) {
+    .login-pt1 {
+        padding: 10px;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .login-pt1 .logogreen {
+        text-align: center;
+    }
+
+    .login-pt1 img {
+        margin-left: 0px;
+        margin-top: 30px;
+        width: 50%;
+    }
+
+    .login-pt2 input {
+        width: 90%;
+        text-align: left;
+    }
+}
+
+/* 
+---------------------------------------------------------*/
 /* html {
     height: 100%;
     width: 100%;
@@ -14645,4 +14734,4 @@ h1 {
     left: 210.00px;
     top: 375.00px;
 
-} */
+}*/

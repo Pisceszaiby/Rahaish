@@ -17,51 +17,26 @@
 </head>
 
 <body>
-
-
     <div class='container-fluid'>
-        <div class="signInRole">
-            <div class="rectangle1"></div>
-            <div class="findYourIdealProperty">Find Your Ideal Property</div>
-            <div class="xc4702f98"></div>
-
-            <div class="signIn">Sign In</div>
-
-
-            <form action="loginresult.php" method="POST" name="signinform">
-                <!-- input data fields -->
-                <input type="email" name="useremail" class="emailAddress" placeholder="Email ID: " required>
-                <input type="password" name="userpassword" class="password" placeholder="Password: " required>
-                <button class="b" type="submit">
-                    <div class="filers">
-                        <div class="filersbox"></div>
-                        <div class="filerstext">Sign In</div>
-                        <!-- sign in button -->
-                    </div>
-                </button>
-            </form>
-
-
-
-            <svg preserveAspectRatio="none" viewBox="0 -0.5 715 1" class="line2">
-                <path d="M 0 0 L 715 0" />
-            </svg>
-            <svg preserveAspectRatio="none" viewBox="0 -0.5 715 1" class="line3">
-                <path d="M 0 0 L 715 0" />
-            </svg>
-
-
-
-
-
-
-            </button>
-            <div class="rahaish"> رہائش</div>
-
+        <div class="row">
+            <div class="col-lg-4 login-pt1 ">
+                <div class="logogreen"> رہائش</div>
+                <h2>Find Your Ideal Property</h2>
+                <img src="assets/login.png" alt="">
+            </div>
+            <div class="col-lg-8 login-pt2">
+                <h2>Sign In</h2>
+                <form action="loginresult.php" method="POST" name="signinform">
+                    <!-- input data fields -->
+                    <input type="email" name="useremail" class="emailAddress" placeholder="Enter Email ID: " required>
+                    <input type="password" name="userpassword" class="password" placeholder="Enter Password: " required>
+                    <br>
+                    <button type="submit" class="btn">Sign In
+                    </button>
+                </form>
+            </div>
         </div>
-
     </div>
-
 </body>
 
 <!-- Bootstrap JavaScript Libraries -->

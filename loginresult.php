@@ -5,7 +5,6 @@
 
     <title>LoginResult</title>
     <!-- Required meta tags -->
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -77,20 +76,20 @@
 
     ?>
     <div class="container-fluid">
-        <div class="loginresult">
-            <div class="backgroundrectangle"></div>
-            <div class="loginResult"><?= $result1 ?></div>
-            <div class="welcome"><?= $result2 ?></div>
-            <form method="get" action="<?= $page ?>"><button type="hidden" name="varname" value="<?= $user_id ?>">
-                    <div class="proceed">
-                        <!-- proceed button -->
-                        <div class="proceedrectangle"></div>
-                        <div class="proceedtext"> <?= $result3 ?></div>
-                    </div>
-                </button></form>
-            <div class="untitled"></div>
-            <div class="xc5c0ae13"> رہائش </div>
+
+        <div class="result">
+            <h2><?= $result1 ?></h2>
+            <h2 class="welcome"><?= $result2 ?></h2>
+            <form method="get" action="<?= $page ?>">
+                <button type="hidden" class="btn" name="varname" value="<?= $user_id ?>">
+
+                    <?= $result3 ?>
+
+
+                </button>
+            </form>
         </div>
+    </div>
 
 
 
@@ -99,8 +98,6 @@
 
 
 
-        <div class="untitled"></div>
-        <div class="x9cb52550"> رہائش </div>
     </div>
 
 
